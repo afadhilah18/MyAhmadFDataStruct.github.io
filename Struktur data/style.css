@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(190, 97%, 42%);
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  img {
+    width: 200px;
+    margin-right: 1105px;
+    margin-left: 20px;
+  }
+
+  h2 {
+    color: hwb(0 3% 5%);
+    width: 300px;
+    margin-right: 995px;
+    margin-left: 20px;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 20px;
+    width: 300px; 
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: hsl(0, 0%, 5%);
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: hsl(224, 93%, 48%);
+    color: rgb(246, 250, 252);
+    padding: 15px 120px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+    margin-right: 20px;
+    border-collapse: collapse;
+    background-color: hsl(0, 38%, 95%);
+    box-shadow: 0 0 6px rgba(89, 88, 88, 0.1);
+    border-radius: 8px;
+  }
+
+  select#gender {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  input#umur {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  th, td {
+    border: 1px solid hwb(0 37% 63%);
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: hsl(220, 84%, 58%);
+    color: #fff;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: hwb(0 90% 6%);
+    }
